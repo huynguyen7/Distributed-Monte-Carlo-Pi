@@ -16,7 +16,7 @@ $ ./run.sh `NUM_TRIALS` `NUM_PROCESSES`
 ```
 
 ## Benchmarking examples:
-With 1,000,000 trials and 8 processes (I'm using M1 Mac):
+With 1,000,000 trials and 2 processes (I'm using M1 Mac):
 ![linr](examples/1000000_2.png)
 
 ## Source:
