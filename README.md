@@ -15,5 +15,9 @@ Implementation for Distributed Monte Carlo algorithm for calculating Pi.
 $ ./run.sh `NUM_TRIALS` `NUM_PROCESSES`
 ```
 
+## Benchmarking examples:
+With 1,000,000 trials and 8 processes (I'm using M1 Mac):
+![linr](examples/1000000_2.png)
+
 ## Source:
 - Intro to Parallel Programming with MPI and OpenMPI: [Click here](https://princetonuniversity.github.io/PUbootcamp/sessions/parallel-programming/Intro_PP_bootcamp_2018.pdf)
