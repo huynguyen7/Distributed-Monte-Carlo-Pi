@@ -1,4 +1,4 @@
-# DISTRIBUTED-MATRIX-MULTIPLICATION
+# DISTRIBUTED-MONTE-CARLO-PI
 Implementation for Distributed Monte Carlo algorithm for calculatingg Pi.
 - Apply Monte Carlo method to calculate Pi number.
 - Just an practice example using OpenMP and MPI.
