@@ -59,7 +59,7 @@ double mpi_omp_pi(int num_trials, int argc, char* argv[]) {
         pi = 4.0*(num_points_circle/(double) num_trials);
         
         double time_taken = omp_get_wtime() - start_time;
-        printf("PI = %.8f -- Time taken in MULTIPROCESS-MPI = %.8fs.\n", pi, time_taken);
+        printf("PI = %.8f -- Time taken in MPI-OMP = %.8fs.\n", pi, time_taken);
     } else { // Slave processes.
         #pragma omp parallel for private(i) firstprivate(x,y) reduction(+:num_points_circle)
         for(i = start_index ; i < n; ++i) {
